@@ -1,23 +1,42 @@
-# readme
 
 
-# 🧩 Feasibility Assessment: Brevo Integration with Treasure Data CDP
 
-**Client:** Visma  
+#  Feasibility Assessment: Brevo Integration with Treasure Data CDP
+
+  
 **Goal:** Evaluate feasibility of integrating Brevo with Treasure Data CDP.
 
 ---
 
-## 🎯 Scope
+##  Scope
 
-- ✅ Review Brevo’s API documentation  
-- ⚠️ Identify potential integration risks and “danger zones”  
-- 🔎 Confirm whether a native integration exists  
-- 🚧 Highlight technical concerns or blockers  
+- Review Brevo’s API documentation  
+- Identify potential integration risks and “danger zones”  
+- Confirm whether a native integration exists  
+- Highlight technical concerns or blockers  
 
 ---
+## Review Brevo’s API documentation  
 
-## ✅ Summary
+
+### Push to Brevo (e.g., contacts, events, campaigns) :
+
+
+
+### Pull from Brevo (e.g., email stats, user info) : 
+
+
+
+### Authentication 
+####  KeyApi Authentication
+####  OAUTH Authentication
+
+
+## Review Brevo’s API documentation  
+
+
+
+##  Summary
 
 There is **no official/native integration** between Brevo and Treasure Data.  
 A **custom integration is technically feasible** using Brevo’s REST API and Treasure Data’s ingestion/export tools (REST API or TD Toolbelt).  
