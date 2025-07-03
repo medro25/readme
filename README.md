@@ -131,7 +131,7 @@ Support for sending multiple records in a single API call is provided by Brevo t
 Similarly, batch endpoints are provided for the bulk addition or update of contacts, as well as for managing e-commerce data such as **orders** and **products**. Through these batch operations, API performance can be optimized, the number of individual requests can be reduced, and compliance with rate limits can be maintained during high-volume processing.
 
 
-# 🚧 Technical Concerns and Blockers  
+#  Technical Concerns and Blockers  
 **Brevo Integration with Treasure Data CDP**
 
 When planning a custom integration between Brevo and Treasure Data, several technical concerns and potential blockers should be taken into account:
@@ -161,11 +161,11 @@ When planning a custom integration between Brevo and Treasure Data, several tech
 
 There is **no official/native integration** between Brevo and Treasure Data.  
 A **custom integration is technically feasible** using Brevo’s REST API and Treasure Data’s ingestion/export tools (REST API or TD Toolbelt).  
-However, several **considerations and potential blockers** must be addressed to ensure a reliable and maintainable solution.
+While the integration is technically doable, careful planning is required to address these risks.
 
 ---
 
-## 🔗 References
+##  References
 
 - [ Brevo API Docs](https://developers.brevo.com/)
 - [ Brevo Developer Hub](https://developers.brevo.com/reference/getting-started-1)
