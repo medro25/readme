@@ -122,7 +122,7 @@ Authorization: Bearer ACCESS_TOKEN
 
 
 
-Brevo applies rate limits to its API in order to maintain system performance and ensure fair use among all users. Under the Enterprise plan, these limits are much higher to support large-scale operations. For instance, the `POST /v3/smtp/email` and `GET /v3/smtp/blockedContacts` endpoints allow up to **7,200,000 requests per hour** or **2,000 per second**. The `GET /v3/smtp/emails` endpoint is limited to **10,800 requests per hour** or **3 per second**. For sending SMS using `POST /v3/transactionalSMS/sms`, the limit is **720,000 per hour** or **200 per second**. Event data can be sent through `POST /v3/events` at **72,000 per hour** or **20 per second**. Other `/v3/smtp/...` endpoints are limited to **600 requests per hour**, and `/v3/contacts/...` endpoints allow up to **72,000 per hour** or **20 per second**. Any other API endpoints have a default limit of **200 requests per hour**. These limits help protect the system from overuse and ensure reliable service for all clients.
+Brevo applies rate limits to its API in order to maintain system performance and ensure fair use among all users. Under the Enterprise plan, these limits are much higher to support large-scale operations.
 
 Brevo enforces strict **rate limits**. For example:
   - POST /v3/smtp/email: **2,000/sec**, **7.2 million/hour**
