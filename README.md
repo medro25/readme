@@ -52,8 +52,6 @@ User interactions such as email opens and clicks are tracked by Brevo. These int
 
 ---
 
-#### Authentication
-
 API keys are used for authentication, and responses are returned in **JSON** format.
 
 
@@ -169,30 +167,13 @@ However, several **considerations and potential blockers** must be addressed to 
 
 ## 🔗 References
 
-- [📘 Brevo API Docs](https://developers.brevo.com/)
-- [🧑‍💻 Brevo Developer Hub](https://developers.brevo.com/reference/getting-started-1)
-- [📘 Treasure Data REST API](https://api-docs.treasuredata.com/)
-- [🛠️ TD Toolbelt CLI](https://docs.treasuredata.com/display/public/PD/Installing+TD+Toolbelt)
+- [ Brevo API Docs](https://developers.brevo.com/)
+- [ Brevo Developer Hub](https://developers.brevo.com/reference/getting-started-1)
+- [ Treasure Data REST API](https://api-docs.treasuredata.com/)
+
 
 ---
 
-## 🔍 1. Integration Capabilities
 
-### 📥 Data Ingestion into Treasure Data
-
-You can ingest Brevo data into TD using:
-
-- 🐍 Custom Python scripts to pull from Brevo REST API (contacts, events, campaigns)
-- 🧰 TD Toolbelt CLI or REST API to upload data in batch (JSON, CSV)
-- ⏱️ Workflows for scheduled ETL/ELT inside TD
-
-**Example Strategy:**
-```bash
-# Pull Brevo contacts via Python
-# Save as CSV or JSON
-# Push to TD
-td import:auto \
-  --format csv \
-  --column-header \
   --time-column updated_at \
   brevo_contacts.csv brevo_db.contacts
