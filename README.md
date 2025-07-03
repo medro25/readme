@@ -174,6 +174,3 @@ While the integration is technically doable, careful planning is required to add
 
 ---
 
-
-  --time-column updated_at \
-  brevo_contacts.csv brevo_db.contacts
